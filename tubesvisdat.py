@@ -108,5 +108,3 @@ y_select.on_change('value', update_plot)
 # Create layout and add to current document
 layout = row(widgetbox(slider, x_select, y_select), plot)
 curdoc().add_root(layout)
-
-!pip freeze > requirements.txt
